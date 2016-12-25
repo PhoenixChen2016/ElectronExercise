@@ -5,3 +5,7 @@
 * 執行使用 electron app
 * 封裝使用 electron-packager app
 * 使用 electron-builder 可以建立安裝檔
+
+參考資料
+-------------------------------
+* [Notification(https://github.com/hokein/electron-sample-apps)](https://github.com/hokein/electron-sample-apps)

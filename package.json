@@ -1,27 +1,28 @@
 {
-	"name": "hello-electron",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"devDependencies": {
-		"electron": "^1.4.13",
-		"electron-builder": "^10.11.0",
-		"electron-packager": "^8.4.0"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\""
-	},
-	"build": {
-		"appId": "gis-hello-electron",
-		"win": {
-			"title": "Hello Electron",
-			"version": "1.0.0",
-			"Publisher": "Me"
-		},
-		"mac":{
-			"category":"hello.electron"
-		}
-	},
-	"author": "Phoenix",
-	"license": "ISC"
+  "name": "hello-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-builder": "^10.11.0",
+    "electron-packager": "^8.4.0",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "build": {
+    "appId": "gis-hello-electron",
+    "win": {
+      "title": "Hello Electron",
+      "version": "1.0.0",
+      "Publisher": "Me"
+    },
+    "mac": {
+      "category": "hello.electron"
+    }
+  },
+  "author": "Phoenix",
+  "license": "ISC"
 }
